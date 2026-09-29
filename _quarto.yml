@@ -1,0 +1,24 @@
+bibliography: bibliography.bib
+html-math-method: mathjax
+format:
+    revealjs:
+        theme: [default, unc.scss]
+        width: 1920
+        height: 1080
+        logo:
+            path: UNC_logo_RGB.png
+            alt: "UNC logo"
+        slide-number: true
+        # set to false to disable drawing on the slides
+        chalkboard: true
+        # digital accessibility extensions
+        axe: true
+        revealjs-plugins:
+            - a11y
+
+
+
+
+
+
+

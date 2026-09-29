@@ -1,0 +1,12 @@
+---
+title: UNC format slides
+author: Matt Bhagat-Conway
+---
+
+## Slide 1
+
+$$
+a = v^2
+$$
+
+## Slide 2
