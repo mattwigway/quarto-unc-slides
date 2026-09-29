@@ -6,57 +6,28 @@ $font-family-sans-serif: "Open Sans";
 
 /*-- scss:rules --*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
-.reveal pre { font-size: .75em }
+
+.reveal pre {
+    font-size: .75em
+}
+
 // terminal look for output, on white background
-.reveal .cell-output pre code { background-color: #fff; color: #000; font-size: 18pt; }
-.reveal a { color: #4B9CD3; }
-.reveal span.citation { font-size: 16pt; font-style: italic;}
-.reveal .textcite span.citation { font-size: inherit; font-style: inherit }
-
-.dim { color: #999 }
-
-textarea { width: 100%; height: 1000px; overflow: scroll; font-size: 48pt; font-family: $font-family-sans-serif }
-
-.center-text {text-align: center;}
-
-.box-answer {border: 3px solid black; padding: 3px}
-
-.countdown { text-align: left; font-size:  36pt; }
-.countdown.soon {color: #EF426F; font-weight: bold;}
-
-// highlighting for qual analysis
-mark {
-    border-radius: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-mark.blue { background-color: #99cdf3; }
-mark.yellow { background-color: #fdd20d; }
-mark.red { background-color: #ff8888; }
-mark.green { background-color: #8bfa7d;}
-mark.pink { background-color: #f980ad }
-mark.purple { background-color: #ffaaff;}
-
-@keyframes pulse {
-    0% {
-
-    }
-    50% {
-        background-color: #fff;
-    }
-    100% {
-
-    }
+.reveal .cell-output pre code {
+    background-color: #fff;
+    color: #000;
+    font-size: 18pt;
 }
 
-body:has(mark.blue:hover) mark:not(.blue),
-    body:has(mark.yellow:hover) mark:not(.yellow),
-    body:has(mark.red:hover) mark:not(.red),
-    body:has(mark.green:hover) mark:not(.green),
-    body:has(mark.pink:hover) mark:not(.pink),
-    body:has(mark.purple:hover) mark:not(.purple) {
-        filter: grayscale(60%) opacity(25%)
+.reveal a {
+    color: #4B9CD3;
 }
 
-ul.no-bullets { list-style-type: none; margin-left: 0; }
-ul.horizontal li { display: inline-block; }
+.reveal span.citation {
+    font-size: 16pt;
+    font-style: italic;
+}
+
+.reveal .textcite span.citation {
+    font-size: inherit;
+    font-style: inherit
+}
